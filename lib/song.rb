@@ -54,6 +54,7 @@ class Song
     if genre.songs.include?(self)
     else
     genre.songs << self
+<<<<<<< HEAD
     end
   end
   
@@ -75,6 +76,9 @@ class Song
   
   def self.create_from_filename(name)
     @@all << self.new_from_filename(name)
+=======
+  end
+>>>>>>> 3178ca5b6fc15f88528207f5e1729b2f0893a825
   end
   
   

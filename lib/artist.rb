@@ -16,9 +16,15 @@ class Artist
   end
   
   def self.create(name)
+<<<<<<< HEAD
     artist = self.new(name)
     artist.save
     artist
+=======
+    song = self.new(name)
+    song.save
+    song
+>>>>>>> 3178ca5b6fc15f88528207f5e1729b2f0893a825
   end
   
   def initialize(name)
